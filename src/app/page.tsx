@@ -4,7 +4,7 @@ import Banner from "/public/images/banner-image.svg";
 import Button from "./components/ui/Button";
 export default function Home() {
   return (
-    <>
+    <div className="bg-[#111823] h-full">
       <Navbar />
       <div className=" mx-2  pt-20">
         <Image src={Banner} alt="banner" />
@@ -22,6 +22,6 @@ export default function Home() {
           <p className="text-white  font-light">No credit card required</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

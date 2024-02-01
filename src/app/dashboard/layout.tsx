@@ -1,8 +1,8 @@
-import { RedirectToSignIn, SignUp, SignedIn, SignedOut } from "@clerk/nextjs";
+import { SignedIn, SignedOut } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import Sidebar from "../components/SideBar";
 import Button from "../components/ui/Button";
-import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
+
 export const metadata: Metadata = {
   title: "FastMedya Dashboard",
   description: "Dashboard for FastMedya web app",
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div>
       <SignedIn>
         <Sidebar>
           {" "}
@@ -40,6 +40,6 @@ export default function RootLayout({
         </Sidebar>
       </SignedIn>
       <SignedOut></SignedOut>
-    </>
+    </div>
   );
 }
