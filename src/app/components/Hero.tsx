@@ -9,7 +9,7 @@ function Hero() {
         <Image src={Banner} alt="banner" />
       </div>
       <div className="flex flex-col items-center  gap-y-12">
-        <h1 className="  text-6xl  md:text-7xl lg:text-8xl   xl:text-9xl  font-bold  relative    -mt-16  md:-mt-20 lg:-mt-20 xl:-mt-32 flex w-full justify-center text-white text-center">
+        <h1 className="  text-6xl z-10 md:text-7xl lg:text-8xl   xl:text-9xl  font-bold  relative    -mt-16  md:-mt-20 lg:-mt-20 xl:-mt-32 flex w-full justify-center text-white text-center">
           Create what <br />
           can't be filmed
         </h1>
