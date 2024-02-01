@@ -1,5 +1,6 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
+import Button from "./ui/Button";
 const FeatureCardValue = [
   {
     title: "Text is all you need",
@@ -43,6 +44,12 @@ function Features() {
             reverse={data.reverse}
           />
         ))}
+      </div>
+      <div className="">
+        <div className="my-12 ">
+          {" "}
+          <Button variant="hero">try now</Button>
+        </div>
       </div>
     </div>
   );

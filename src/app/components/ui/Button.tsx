@@ -35,7 +35,7 @@ function Button({ variant, href, onClick, children }: ButtonProps) {
         variant === "contact",
       "bg-white text-black hover:text-black     hover:bg-gray-100 ":
         variant === "white",
-      "bg-white text-black hover:text-black   text-xl    h-12 text-xl   hover:bg-gray-100 ":
+      "bg-white text-black hover:text-black  uppercase  text-xl    h-12 text-xl   hover:bg-gray-100 ":
         variant === "hero",
     }
   );
