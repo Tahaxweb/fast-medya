@@ -5,25 +5,25 @@ import Link from "next/link";
 function Footer() {
   return (
     <>
-      <footer className="  gap-y-5  flex  mx-8  flex-col items-center">
+      <footer className="  gap-y-5   flex  mx-8  flex-col items-center">
         <div>
           <Image src={Logo} alt="" />
         </div>
-        <div className="w-full h-[1px] bg-white"></div>
-        <div className="flex w-full    items-center  justify-between">
-          <div className="flex  gap-x-4">
+        <div className="w-fulh-[1px] bg-white"></div>
+        <div className="flex w-full flex-wrap gap-10   mb-12 items-center  justify-between">
+          <div className="flex  flex-wrap items-center justify-center gap-x-4">
             <h3 className=" text-white font-light">
               Copyright © {new Date().getFullYear()} Fast medya, Co.
             </h3>
             <h3 className=" text-white font-light">All rights reserved.</h3>
           </div>
-          <div className="flex gap-x-4">
+          <div className="flex items-center  justify-center gap-x-4">
             <div className=" w-12 h-12 rounded-full bg-white"></div>
             <div className=" w-12 h-12 rounded-full bg-white"></div>
             <div className=" w-12 h-12 rounded-full bg-white"></div>
             <div className=" w-12 h-12 rounded-full bg-white"></div>
           </div>
-          <div className="flex gap-x-4 text-white">
+          <div className="flex gap-x-4 justify-center items-center text-white">
             <Link href={""} className=" uppercase">
               contact
             </Link>
