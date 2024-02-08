@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function VideSection() {
   return (
-    <div className="w-full h-dvh bg-white  rounded-3xl  flex flex-col items-center">
+    <div className="w-full h-screen   bg-white  rounded-3xl  flex flex-col items-center">
       <h2 className="text-[#111823] mt-12 uppercase text-2xl font-Extrabold">
         Gallery
       </h2>
@@ -18,10 +18,10 @@ function VideSection() {
           className=" rounded-xl w-full h-full"
         ></iframe>
       </div>
-      <div className="">
+      <div className=" mb-6">
         <Link
           href={"/"}
-          className="uppercase rounded-xl mb-8 bg-[#111823] text-white py-3 px-6 font-bold"
+          className="uppercase rounded-xl   bg-[#111823] text-white py-3 px-6 font-bold"
         >
           View gallery
         </Link>

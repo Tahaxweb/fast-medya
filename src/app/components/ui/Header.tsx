@@ -58,7 +58,7 @@ export default function Header() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href={"/sign"} className="text-sm leading-6 text-white">
+          <Link href={"/dashboard"} className="text-sm leading-6 text-white">
             <Button variant="white">Giriş Yap</Button>
           </Link>
         </div>
@@ -112,7 +112,10 @@ export default function Header() {
                 </a>
               </div>
               <div className="py-6">
-                <Link href={"/sign"} className="text-sm leading-6 text-white">
+                <Link
+                  href={"/dashboard"}
+                  className="text-sm leading-6 text-white"
+                >
                   <Button variant="hero">
                     Giriş Yap
                     <ArrowLongRightIcon />
